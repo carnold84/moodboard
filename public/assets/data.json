@@ -1,0 +1,173 @@
+{
+	"users": [
+		{
+			"id": "99bff72a-6032-4036-ac6f-17fb81c35eae",
+			"firstName": "Holly",
+			"lastName": "Boyd",
+			"email": "holly.boyd57@example.com",
+			"dob": "11/2/1973"
+		},
+		{
+			"id": "4791178e-5e30-43bc-b875-a92b05410597",
+			"firstName": "Felicia",
+			"lastName": "Holt",
+			"email": "felicia.holt83@example.com",
+			"dob": "2/7/1971"
+		},
+		{
+			"id": "56d5adbd-9058-44cd-b47b-4fcdc6540ec5",
+			"firstName": "Heidi",
+			"lastName": "Meyer",
+			"email": "heidi.meyer99@example.com",
+			"dob": "10/1/1971"
+		},
+		{
+			"id": "6b574c5b-9870-4788-a068-77a19aaeba6a",
+			"firstName": "Douglas",
+			"lastName": "Henry",
+			"email": "douglas.henry64@example.com",
+			"dob": "11/7/1971"
+		}
+	],
+	"projects": [
+		{
+			"id": "903f6506-0661-4370-982d-1c224cfd90ce",
+			"title": "GWD Website",
+			"description": "Website design for GWD Financial."
+		},
+		{
+			"id": "e66a854c-dd73-450d-a034-d9c943db1fe3",
+			"title": "Social App",
+			"description": "App design and inspiration for new social networking app."
+		},
+		{
+			"id": "67ad05c2-eeab-47ec-85e7-2bafc8942031",
+			"title": "Custom CMS",
+			"description": "Concepts and designs for custom CMS to use for client projects."
+		}
+	],
+	"images": [
+		{
+			"id": "548a6a0b-8baa-40d3-93b2-13d8cffe3da7",
+			"title": "Big Hero 6 Tickets Page",
+			"url": "./assets/images/f844f421080335.562fb2371f277.jpg",
+			"size": {
+				"width": 1600,
+				"height": 1000
+			}
+		},
+		{
+			"id": "5562ea8a-88a2-4074-8d1c-877f4bc33f4f",
+			"title": "Big Hero 6 Home Page",
+			"url": "./assets/images/a8ce5521080335.562fb2978a4aa.jpg",
+			"size": {
+				"width": 1600,
+				"height": 1000
+			}
+		},
+		{
+			"id": "21e7951d-2e1f-4c15-ab4e-a840fa756d7c",
+			"title": "Murray Chalmers Website",
+			"url": "./assets/images/Murray_Chalmers_Website_Designed_by_She_Was_Only1.jpg",
+			"size": {
+				"width": 1920,
+				"height": 1285
+			}
+		},
+		{
+			"id": "4fd7e40c-df89-4f87-b210-3a67b4f0920e",
+			"title": "Murray Chalmers Mobile Site",
+			"url": "./assets/images/Murray_Chalmers_Website_Designed_by_She_Was_Only8.jpg",
+			"size": {
+				"width": 1920,
+				"height": 1152
+			}
+		},
+		{
+			"id": "a08c0e51-2030-49d8-a36b-caf3d65e20f7",
+			"title": "Amazonia Web Services",
+			"url": "./assets/images/6a156b13227409.562cb8a440c39.png",
+			"size": {
+				"width": 600,
+				"height": 337
+			}
+		},
+		{
+			"id": "9776bf88-993c-4910-a716-9664d2526904",
+			"title": "Amazonia Web Services",
+			"url": "./assets/images/08b21313227409.562cbe9b1414f.png",
+			"size": {
+				"width": 600,
+				"height": 337
+			}
+		}
+	],
+	"links": [
+		{
+			"id": "ca626e2e-2755-4f2f-9f6a-4ffff670c79c",
+			"title": "Hello Monday Site",
+			"url": "http://hellomonday.com/"
+		},
+		{
+			"id": "7b2a7630-74c6-45d5-93b0-50d547a42f6c",
+			"title": "Murray Chalmers Site",
+			"url": "http://murraychalmers.com/"
+		},
+		{
+			"id": "bb9d7091-6029-4903-83c0-af7d569bd82f",
+			"title": "Big Spaceship",
+			"url": "http://www.bigspaceship.com/"
+		}
+	],
+	"tags": [
+		{
+			"id": "bb2ae32e-14fa-4c57-81ff-3cf545200b99",
+			"title": "Design"
+		},
+		{
+			"id": "f15ed94e-f112-4f24-8598-31f22725f055",
+			"title": "Digital"
+		},
+		{
+			"id": "9d4b48dc-85da-4f1f-9d93-c9243e0e4037",
+			"title": "Clean"
+		},
+		{
+			"id": "7079357f-23b8-461c-9da1-82b043a98d29",
+			"title": "Light"
+		},
+		{
+			"id": "f73c8996-174f-4971-a23a-c99f7f83b4ed",
+			"title": "Dark"
+		},
+		{
+			"id": "e0519c74-5981-4198-8b52-5c7aa423da50",
+			"title": "Website"
+		}
+	],
+	"images_tags": [
+		{
+			"id": "bb2ae32e-14fa-4c57-81ff-3cf545200b99",
+			"imageId": "548a6a0b-8baa-40d3-93b2-13d8cffe3da7",
+			"tagId": "bb2ae32e-14fa-4c57-81ff-3cf545200b99"
+		},
+		{
+			"id": "bb2ae32e-14fa-4c57-81ff-3cf545200b99",
+			"imageId": "4fd7e40c-df89-4f87-b210-3a67b4f0920e",
+			"tagId": "e0519c74-5981-4198-8b52-5c7aa423da50"
+		}
+	],
+	"links_tags": [
+		{
+			"id": "ca626e2e-2755-4f2f-9f6a-4ffff670c79c",
+			"linkId": "548a6a0b-8baa-40d3-93b2-13d8cffe3da7",
+			"tagId": "bb2ae32e-14fa-4c57-81ff-3cf545200b99"
+		},
+		{
+			"id": "bb2ae32e-14fa-4c57-81ff-3cf545200b99",
+			"linkId": "7b2a7630-74c6-45d5-93b0-50d547a42f6c",
+			"tagId": "e0519c74-5981-4198-8b52-5c7aa423da50"
+		}
+	],
+	"pinned": ["67ad05c2-eeab-47ec-85e7-2bafc8942031", "21e7951d-2e1f-4c15-ab4e-a840fa756d7c", "ca626e2e-2755-4f2f-9f6a-4ffff670c79c"]
+}
