@@ -1,13 +1,20 @@
 import React, { PropTypes } from 'react';
 import styled from 'styled-components';
 
+const BUTTON_SIZE = {
+    WIDTH: 24,
+    HEIGHT: 24,
+};
+
+const BORDER_WIDTH = 1;
+
 const Container = styled.div`
-    width: 260px;
-    height: 24px;
-    padding: 0 0 0 12px;
+    width: ${props => props.width}px;
+    height: ${props => props.height}px;
+    padding: 0 ${props => props.height / 4}px 0 ${props => props.height / 2}px;
     background-color: #ffffff;
-    border-radius: 12px;
-    border: #e5e5e5 solid 1px;
+    border-radius: ${props => props.height / 2}px;
+    border: #e5e5e5 solid ${BORDER_WIDTH}px;
     flex-direction: 'row';
     justify-content: space-around;
     align-items: center;
@@ -15,9 +22,9 @@ const Container = styled.div`
 `;
 
 const Input = styled.input`
-    width: 236px;
-    height: 22px;
-    font-family: inherit;
+    width: calc(100% - ${BUTTON_SIZE.WIDTH}px);
+    height: calc(100% - ${BORDER_WIDTH * 2}px);
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
     font-size: 11px;
     color: #666666;
     border: none;
@@ -30,8 +37,8 @@ const Input = styled.input`
 `;
 
 const Button = styled.button`
-    width: 24px;
-    height: 24px;
+    width: ${props => BUTTON_SIZE.WIDTH}px;
+    height: ${props => BUTTON_SIZE.HEIGHT}px;
     border: none;
     background-color: transparent;
     padding: 0;
@@ -55,12 +62,12 @@ const Icon = styled.svg`
 
 const Search = (props) => {
 
-    const { onSubmit } = props;
+    const { onSubmit, width, height } = props;
 
     let input = undefined;
 
     return (
-        <Container>
+        <Container width={width} height={height}>
 
             <Input placeholder="Search" innerRef={(el) => input = el} />
 
@@ -77,10 +84,17 @@ const Search = (props) => {
     );
 };
 
-const { func } = PropTypes;
+const { func, number } = PropTypes;
 
 Search.propTypes = {
     onSubmit: func.isRequired,
+    width: number,
+    height: number,
+};
+
+Search.defaultProps = {
+    width: 260,
+    height: 24,
 };
 
 export default Search;

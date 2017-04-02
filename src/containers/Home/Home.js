@@ -42,6 +42,10 @@ class Home extends Component {
 
                     <Search onSubmit={(value) => { console.log(value); }} />
 
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                    </ul>
+
                 </NavBar>
 
                 <Content>
